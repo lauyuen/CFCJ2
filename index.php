@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,13 +14,26 @@
       padding-top: 60px;
       padding-bottom: 40px;
       }
+      
+      .jumbotron {
+      font-size: 54px;
+      margin-bottom: 9px;
+      font-weight: bold;
+      letter-spacing: -1px;
+      line-height: 1;
+      }
     </style>
+    <script type="text/javascript">
+      <!--
+          $('.dropdown-toggle').dropdown()
+        -->
+    </script>
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href=".ico/favicon.ico">
@@ -44,9 +56,26 @@
           <a class="brand" href="#">Canadian Forum of Civil Justice</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">About the Forum</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Publications</a></li>
+              <li class="active"><a href="#">Inventory of Reforms</a></li>
+              <li><a href="#">Clearinghouse</a></li>
+              <li><a href="#">Links</a></li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="dropdown">
+                <a href="#"
+                   class="dropdown-toggle"
+                   data-toggle="dropdown">
+                  Language
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">Francais</a></li>
+                </ul>
+              </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -54,50 +83,31 @@
     </div>
 
     <div class="container">
+      <header>
+        <h1 class="jumbotron">Inventory of Reforms</h1>
+        <p class="lead">This database contains descriptions of civil
+          justice system reform initiatives from across Canada, each
+          described according to a standard format that includes
+          information on the purpose, development, implementation, and
+          evaluation of the reform. <a href="#">Read more »</a></p>
+        <div class="subnav">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#Search">Search</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Update">Update</a></li>
+            <li><a href="#Take Part">Take Part</a></li>
+          </ul>
+        </div>
+      </header>
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>I'd just like to politely let you know I am about to steal
-          all your cookies. You should be prepared for the most
-          brilliant cookie theft in history of time. Expect me. No
-          cookie is safe.</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce
-          dapibus, tellus ac cursus commodo, tortor mauris condimentum
-          nibh, ut fermentum massa justo sit amet risus. Etiam porta
-          sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce
-          dapibus, tellus ac cursus commodo, tortor mauris condimentum
-          nibh, ut fermentum massa justo sit amet risus. Etiam porta
-          sem malesuada magna mollis euismod. Donec sed odio dui. </p> 
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
-          in, egestas eget quam. Vestibulum id ligula porta felis
-          euismod semper. Fusce dapibus, tellus ac cursus commodo,
-          tortor mauris condimentum nibh, ut fermentum massa justo sit
-          amet risus.</p> 
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
+      <?php
+         
+         ?>
 
       <hr>
 
       <footer>
-        <p>&copy; Company 2012</p>
+        <p>Footer Placement</p>
       </footer>
 
     </div> <!-- /container -->
@@ -105,11 +115,11 @@
     <!-- Le javascript
          ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src=".js/jquery.js"></script>
-    <script src=".js/bootstrap-transition.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
     <script src=".js/bootstrap-alert.js"></script>
     <script src=".js/bootstrap-modal.js"></script>
-    <script src=".js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
     <script src=".js/bootstrap-scrollspy.js"></script>
     <script src=".js/bootstrap-tab.js"></script>
     <script src=".js/bootstrap-tooltip.js"></script>
