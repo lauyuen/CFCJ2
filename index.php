@@ -19,8 +19,8 @@
                                 "english" => "Search", 
                                 "french" => "Recherche"),
                 "header"    => array(
-                    "english"   =>  "Inventory of Reforms",
-                    "french"    =>  "Répertoire des réformes"),
+                    "english"   =>  "Search the Inventory",
+                    "french"    =>  "Recherche dans le répertoire"),
                 "lead"      => array(
                     "english"   =>  "This database contains descriptions of 
                         civil justice system reform initiatives from across 
@@ -46,7 +46,6 @@
     
     
 <?php include("inc/header.php"); ?>
-    <div class="container">
       <header>
         <h1 class="jumbotron"><?php echo $content["header"][$lang];?></h1>
         <p class="lead"><?php  echo $content["lead"][$lang];?></p>
