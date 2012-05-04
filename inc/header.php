@@ -29,7 +29,7 @@
             letter-spacing: -1px;
             line-height: 1;
         }
-        input[type=text] { width: 100%; box-sizing: border-box; height: 28px; }
+        /* input[type=text] { width: 100%; box-sizing: border-box; height: 28px; } */
     </style>
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
     <link href="./css/bootstrap-datatables.css" rel="stylesheet">
